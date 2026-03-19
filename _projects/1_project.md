@@ -6,8 +6,7 @@ img: assets/img/project/logo_rat.png
 importance: 1
 category:
 related_publications: true
-permalink: https://ua-cvml.github.io/
-
+redirect: https://ua-cvml.github.io/
 ---
 
 Every project has a beautiful feature showcase page.
