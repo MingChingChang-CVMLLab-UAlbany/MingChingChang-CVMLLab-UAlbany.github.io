@@ -11,8 +11,6 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <div class="projects">
-
-
 <!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -35,5 +33,5 @@ horizontal: false
     {% endfor %}
   </div>
   {% endif %}
-{% endif %}
+
 </div>
