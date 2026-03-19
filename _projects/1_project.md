@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Rat Seizure Detection & Classification
 description: #
 img: assets/img/project/logo_rat.png
