@@ -24,6 +24,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+LAB: [Computer Vision and Machine Learning Lab](https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab)
 
 Ming-Ching Chang is an Associate Professor with tenure (since Fall 2022) at the Department of [Computer Science](https://www.albany.edu/computer-science), [College of Engineering and Applied Sciences](https://www.albany.edu/cnse), [University at Albany](https://www.albany.edu/), [State University of New York](https://www.suny.edu/). He was with the [Department of Electrical and Computer Engineering](https://www.albany.edu/ece) from 2016 to 2018. He was an Adjunct Professor with the Computer Science Department from 2012-2016. During 2008-2016, he was a Computer Scientist at [GE Global Research Center](https://www.geglobalresearch.com/). He was an Assistant Researcher at the Mechanical Industry Research Labs, [Industrial Technology Research Instutite (ITRI)](https://www.itri.org.tw/english/) at Taiwan from 1996 to 1998.
 

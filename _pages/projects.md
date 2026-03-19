@@ -1,10 +1,10 @@
 ---
 layout: page
-title: LAB
+title: projects
 permalink: /projects/
-description: Computer Vision and Machine Learning (CVML) Lab
-nav: true
-nav_order: 4
+description: A growing collection of your cool projects.
+nav: false #true
+nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
