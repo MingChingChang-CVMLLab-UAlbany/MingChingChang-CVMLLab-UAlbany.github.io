@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Ting-Yu
+first_name: Ming-Ching
 # middle_name: R.
-last_name: Tsai
+last_name: Chang
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ting-Yu's homepage
+  Ming-Ching Chang's homepage
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -279,8 +279,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Tsai, Tsai*]
-  first_name: [Ting-Yu]
+  last_name: [Chang, Chang*]
+  first_name: [Ming-Ching]
 
   style: apa
   locale: en
