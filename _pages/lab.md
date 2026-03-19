@@ -1,10 +1,11 @@
 ---
 layout: default
-title: LAB
-permalink: /lab/
+redirect_to: https://ua-cvml.github.io/
+# title: LAB
+# permalink: /lab/
 nav: true
 nav_order: 4
-redirect_to: https://ua-cvml.github.io/
+# redirect_to: https://ua-cvml.github.io/
 ---
 
 <!-- 
