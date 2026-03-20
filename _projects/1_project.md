@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Rat Seizure Detection & Classification
+title: Ting Yu Tsai
 description: #
-img: assets/img/project/logo_rat.png
+img: # assets/img/project/logo_rat.png
 importance: 1
 category:
 related_publications: true
