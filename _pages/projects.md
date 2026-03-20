@@ -1,33 +1,24 @@
 ---
-layout: page
-title: PROJECTS
+layout: profiles
 permalink: /projects/
+title: PROJECTS
 description:
 nav: true
 nav_order: 4
-display_categories: #[work, fun]
-horizontal: false
+
+profiles:
+  - align: right
+    image: assets/img/project/logo_rat.png
+    content: about_einstein.md
+    image_circular: false
+    more_info: >
+      <p>Rat Seizure Detection & Classification</p>
+    redirect: https://ua-cvml.github.io/
+
+  - align: left
+    image: project2.jpg
+    content: about_einstein.md
+    image_circular: false
+    more_info: >
+      <p>Project 2 short info</p>
 ---
-
-<!-- pages/projects.md -->
-<div class="projects">
-<!-- Display projects without categories -->
-{% assign sorted_projects = site.projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-{% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-{% endif %}
-
-</div>
