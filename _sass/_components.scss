@@ -63,20 +63,22 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    color: var(--global-theme-color) !important;
 
     p {
       display: inline-block;
       margin: 0;
     }
 
-    a {
+    a,
+    a:visited {
       color: var(--global-hover-color) !important;
+      text-decoration: none;
+    }
 
-      &:hover {
-        color: var(--global-theme-color) !important;
-        text-decoration: underline;
-      }
+    a:hover,
+    a:focus {
+      color: var(--global-theme-color) !important;
+      text-decoration: underline;
     }
 
   }
