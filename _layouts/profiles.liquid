@@ -38,7 +38,7 @@ layout: page
 
       <div class="clearfix">
         {% if profile.content %}
-          {% capture profile_content %}{% include project_profiles/about_rat.md %}{% endcapture %}
+          {% capture profile_content %}{% include {{profile.content}} %}{% endcapture %}
           {{ profile_content | markdownify }}
         {% else %}
           {{ content }}

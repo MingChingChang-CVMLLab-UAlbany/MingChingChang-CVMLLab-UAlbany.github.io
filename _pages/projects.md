@@ -13,7 +13,7 @@ profiles:
     image_circular: false
     more_info: >
       Rat Seizure Detection &amp; Classification
-    redirect:  https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
 
   - align: left
     image: project/logo_skeleton.png
@@ -21,7 +21,7 @@ profiles:
     image_circular: false
     more_info: >
       Skeleton-based Human Action Recognition
-    redirect:  https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
 
   - align: right
     image: project/logo_obtracking.png
@@ -29,15 +29,15 @@ profiles:
     image_circular: false
     more_info: >
       Single & Multiple Object Tracking
-    redirect:  https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
 
   - align: left
     image:
-    content: project_profiles/mutitracking.md
+    content: project_profiles/about_mutitracking.md
     image_circular: false
     more_info: >
       UA-DETRAC Benchmark Dataset for Multi-Object Tracking
-    redirect:  https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
 
 
   - align: right
@@ -46,6 +46,6 @@ profiles:
     image_circular: false
     more_info: >
       Challenging Image Manipulation Detection (CIMD)
-    redirect:  https://arxiv.org/pdf/2311.14218
+    redirect: https://arxiv.org/pdf/2311.14218
 
 ---
