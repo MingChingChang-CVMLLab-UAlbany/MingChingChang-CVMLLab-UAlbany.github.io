@@ -12,7 +12,7 @@ profiles:
     content: about_rat.md
     image_circular: false
     more_info: >
-      <p>Rat Seizure Detection &amp; Classification</p>
+      Rat Seizure Detection &amp; Classification
     redirect: https://ua-cvml.github.io/
 
   - align: left
