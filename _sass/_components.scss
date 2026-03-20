@@ -71,11 +71,13 @@ ul.task-list input[type="checkbox"] {
 
     a {
       color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
     }
 
-    a:hover {
-      color: var(--global-theme-color);
-    }
   }
   img {
     width: 100%;
