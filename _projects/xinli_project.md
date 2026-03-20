@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ming-Ching Chang
-description: Associate Professor
+description: Professor
 img: assets/img/people/XinLi_2023.jpg
 importance: 2
 category: Lab Co-directors
