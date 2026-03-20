@@ -68,6 +68,14 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
+
+    a {
+      color: var(--global-text-color);
+    }
+
+    a:hover {
+      color: var(--global-theme-color);
+    }
   }
   img {
     width: 100%;
