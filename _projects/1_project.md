@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Ting Yu Tsai
-description: #
-img: # assets/img/project/logo_rat.png
+description: PhD student
+img: assets/img/people/tingtsai97caf364-4567-4507-8450-519798ec2da0.png
 importance: 1
 category:
 related_publications: true
-redirect: https://ua-cvml.github.io/
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 ---
 
 Every project has a beautiful feature showcase page.
