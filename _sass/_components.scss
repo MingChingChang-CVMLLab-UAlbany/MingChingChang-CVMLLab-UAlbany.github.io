@@ -55,31 +55,15 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Profile
-// .about-profile {
-//   width: 100%;
-
-//   .more-info {
-//     margin-bottom: 5px;
-//     margin-top: 5px;
-//     font-family: monospace;
-//   }
-
+// .profiles-profile {
 //   img {
 //     width: 100%;
-//     height: auto;
+//     height: 175px;
 //     object-fit: contain;
-//     background-color: transparent;
+//     background-color: white;
 //   }
 // }
 
-.profiles-profile {
-  img {
-    width: 100%;
-    height: 175px;
-    object-fit: contain;
-    background-color: white;
-  }
-}
 .profile {
   width: 100%;
 
@@ -92,21 +76,7 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
-
-    a {
-      color: var(--global-theme-color) !important;
-      &:hover {
-        color: var(--global-hover-color) !important;
-        text-decoration: underline;
-      }
-    }
   }
-  // img {
-  //   width: 100%;
-  //   height: 175px;
-  //   object-fit: contain;
-  //   background-color: white;
-  // }
 }
 
 .profile.float-right {
@@ -128,21 +98,26 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
-// .about-profile img {
-//   width: 100%;
-//   height: auto;
-//   object-fit: contain;
-//   background-color: transparent;
-// }
 
-.project-profile img {
+.profiles-profile {
+  .more-info a {
+    color: var(--global-theme-color) !important;
+
+    &:hover {
+      color: var(--global-hover-color) !important;
+      text-decoration: underline;
+    }
+  }
+
+  img {
     width: 100%;
     height: 175px;
     object-fit: contain;
     background-color: white;
+  }
 }
-// CV
 
+// CV
 .cv {
   margin-bottom: 40px;
 
