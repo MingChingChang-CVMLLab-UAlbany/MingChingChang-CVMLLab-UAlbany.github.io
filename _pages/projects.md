@@ -16,9 +16,9 @@ profiles:
     redirect: https://ua-cvml.github.io/
 
   - align: left
-    image: project2.jpg
+    image: project/logo_rat.png
     content: about_rat.md
-    image_circular: false
+    image_circular: true
     more_info: >
       <p>Project 2 short info</p>
 ---
