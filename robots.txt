@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tiffany9056.github.io/sitemap.xml
+Sitemap: https://mingching.github.io/sitemap.xml
