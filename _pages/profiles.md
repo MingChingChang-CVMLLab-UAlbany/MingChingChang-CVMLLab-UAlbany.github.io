@@ -3,7 +3,7 @@ layout: page
 title: MEMBERS
 permalink: /people/
 description:
-nav: true
+nav: false #true
 nav_order: 7
 display_categories: [Lab Co-directors, Lab Members]
 horizontal: false

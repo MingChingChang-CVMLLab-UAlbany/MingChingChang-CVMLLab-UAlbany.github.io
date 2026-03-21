@@ -3,7 +3,7 @@ layout: profiles
 permalink: /projects/
 title: PROJECTS
 description:
-nav: true
+nav: false #true
 nav_order: 4
 
 profiles:
