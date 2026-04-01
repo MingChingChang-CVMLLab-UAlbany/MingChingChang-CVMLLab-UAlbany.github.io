@@ -12,7 +12,9 @@ scholar_userid: a3-Gl8YAAAAJ # your Google Scholar ID
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
-custom_social:
-  logo: /assets/img/dblp.png
-  title: DBLP
-  url: https://dblp.uni-trier.de/pid/21/4361.html
+dblp_url: https://dblp.uni-trier.de/pid/21/4361.html
+
+# dblp:
+#   logo: /assets/img/dblp.png
+#   title: DBLP
+#   url: https://dblp.uni-trier.de/pid/21/4361.html
