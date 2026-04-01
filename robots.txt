@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mingching.github.io/sitemap.xml
+Sitemap: https://MingChingChang-CVMLLab-UAlbany.github.io/sitemap.xml

@@ -9,7 +9,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "tiffany9056/mingchingchang-site",
+    "data-repo": "MingChingChang-CVMLLab-UAlbany/MingChingChang-CVMLLab-UAlbany.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
