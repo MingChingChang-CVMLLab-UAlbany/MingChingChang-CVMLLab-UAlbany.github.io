@@ -1,15 +1,4 @@
----
-layout: awards
-permalink: /awards/
-title: AWARDS
-description:
-nav: true
-nav_order: 6
----
-<!-- Update data in _data/awards.yml -->
-<!-- Update style in _layouts/awards.liquid -->
 
-<!-- 
 ---
 layout: page
 permalink: /awards/
@@ -51,4 +40,3 @@ calendar: false
 1. **GE Above and Beyond – Patent Award on Expertise ($275)**, 2011.
 1. **GE Above and Beyond – Silver Award for Expertise ($500)**, 2011.
 1. **GE Above and Beyond – Level 3 Award for Innovation ($100)**, 2010.
- -->

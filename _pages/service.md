@@ -11,7 +11,15 @@ nav_order: 5
 
 
 <!-- 
+
+---
 layout: page
+permalink: /service/
+title: SERVICE
+description:
+nav: true
+nav_order: 5
+---
 ## Professional Appointments
 
 - **Associate Editor**, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 10/2025 to 12/2027.
