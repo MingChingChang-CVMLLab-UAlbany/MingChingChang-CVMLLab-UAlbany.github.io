@@ -2,11 +2,11 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: # <a href='#'>Associate Professor</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Associate Professor</a>
 
 profile:
   align: right
-  image: mingchingchang.png
+  image: 2016_10_25_Ming-Ching Chang_19.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office: 1400 Western Avenue, Albany, NY 12222, USA</p>
