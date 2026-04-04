@@ -1,4 +1,16 @@
 ---
+layout: awards
+permalink: /awards/
+title: AWARDS
+description:
+nav: true
+nav_order: 6
+---
+<!-- Update data in _data/awards.yml -->
+<!-- Update style in _layouts/awards.liquid -->
+
+<!--
+---
 layout: page
 permalink: /awards/
 title: AWARDS
@@ -7,8 +19,6 @@ nav: true
 nav_order: 6
 calendar: false
 ---
-
-## Awards and Honors
 
 1. **Best Paper Runner-Up Award**, IEEE International Conference on Advanced Visual and Signal-based Systems (AVSS), 2025.
 1. **Best Paper Award**, ECCV Beyond Euclidean Workshop (BEW): Hyperbolic and Hyperspherical Learning for Computer Vision, European Conference on Computer Vision (ECCV), 2024.
@@ -39,3 +49,4 @@ calendar: false
 1. **GE Above and Beyond – Patent Award on Expertise ($275)**, 2011.
 1. **GE Above and Beyond – Silver Award for Expertise ($500)**, 2011.
 1. **GE Above and Beyond – Level 3 Award for Innovation ($100)**, 2010.
+-->
