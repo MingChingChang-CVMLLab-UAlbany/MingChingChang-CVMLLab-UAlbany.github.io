@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: funding
 permalink: /funding/
 title: GRANTS
 description:
@@ -7,7 +7,18 @@ nav: true
 nav_order: 4
 ---
 
-## Research Programs and Grants
+<!-- Update data in _data/funding.yml -->
+<!-- Update style in _layouts/funding.liquid -->
+
+<!--
+---
+layout: page
+permalink: /funding/
+title: GRANTS
+description:
+nav: true
+nav_order: 4
+---
 
 1. **Co-PI, Embedded Edge Computing Framework for Real-Time Road Object Tracking for Wide Coverage using Deep Learning**  
    UAE University. PI: Munkhjargal Gochoo.  
@@ -98,4 +109,5 @@ nav_order: 4
 
 1. **GE Global Research Growth Council Grant**  
    Developed a video content analysis prototype demonstration system.  
-   2010. **$10,000**.
+   2010. **$10,000**
+-->
