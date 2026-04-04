@@ -6,6 +6,9 @@ description:
 nav: true
 nav_order: 3
 ---
+<!-- Update data in _data/teaching.yml -->
+<!-- Update style in _layouts/teaching.liquid -->
+
 <!-- 
 UAlbany Courses:
 
