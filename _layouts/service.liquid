@@ -13,7 +13,7 @@ layout: default
   <article>
     <div class="service-cv">
       <section class="service-section">
-        <h2 class="service-heading">Professional Appointments</h2>
+        <summary class="service-heading">Professional Appointments</summary>
         <div class="service-list">
           {% for item in site.data.service.professional_appointments %}
             <div class="service-entry">
@@ -31,7 +31,7 @@ layout: default
       </section>
 
       <section class="service-section">
-        <h2 class="service-heading">Journal Referee</h2>
+        <summary class="service-heading">Journal Referee</summary>
         <div class="service-list compact">
           {% for item in site.data.service.journal_referee %}
             <div class="service-entry">
@@ -45,7 +45,7 @@ layout: default
       </section>
 
       <section class="service-section">
-        <h2 class="service-heading">Conference Technical Committee and Referee</h2>
+        <summary class="service-heading">Conference Technical Committee and Referee</summary>
         <div class="service-list compact">
           {% for item in site.data.service.conference_service %}
             <div class="service-entry">
@@ -73,7 +73,7 @@ layout: default
   .service-heading {
     margin-bottom: 0.85rem;
     padding-bottom: 0.3rem;
-    border-bottom: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.10));
+    border-bottom: 1px solid var(--global-divider-color);
     font-size: 1.15rem;
     font-weight: 700;
   }
@@ -99,13 +99,13 @@ layout: default
   }
 
   .service-note {
-    color: var(--global-text-color-light, #666);
+    color: var(--global-text-color-light);
   }
 
   .service-years {
     white-space: nowrap;
     font-weight: 600;
-    color: var(--global-theme-color, #6c63ff);
+    color: var(--global-theme-color);
     margin-left: 1rem;
   }
 

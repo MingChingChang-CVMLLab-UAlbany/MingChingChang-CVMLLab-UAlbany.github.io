@@ -310,14 +310,14 @@ ul.task-list input[type="checkbox"] {
 
 .selected-award-venue,
 .selected-award-detail {
-  color: var(--global-text-color-light, #666);
+  color: var(--global-text-color-light);
 }
 
 .selected-award-year {
   margin-left: 0.5rem;
   white-space: nowrap;
   font-weight: 600;
-  color: var(--global-theme-color, #6c63ff);
+  color: var(--global-theme-color);
 }
 
 
@@ -329,7 +329,7 @@ ul.task-list input[type="checkbox"] {
   margin-top: 1.8rem;
   margin-bottom: 0.75rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.10));
+  border-bottom: 1px solid var(--global-divider-color);
   font-size: 1.15rem;
   font-weight: 700;
 }
@@ -351,7 +351,7 @@ ul.task-list input[type="checkbox"] {
   width: 0.38rem;
   height: 0.38rem;
   border-radius: 50%;
-  background: var(--global-theme-color, #6c63ff);
+  background: var(--global-theme-color);
 }
 
 .award-title {
@@ -363,6 +363,6 @@ ul.task-list input[type="checkbox"] {
 .award-detail {
   margin-top: 0.08rem;
   line-height: 1.55;
-  color: var(--global-text-color-light, #666);
+  color: var(--global-text-color-light);
   font-size: 0.97rem;
 }
