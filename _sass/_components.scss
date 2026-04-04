@@ -289,94 +289,262 @@ ul.task-list input[type="checkbox"] {
 
 
 
-.selected-awards-list {
-  margin-top: 0.5rem;
-  padding-left: 1.25rem;
-}
+// .selected-awards-list {
+//   margin-top: 0.5rem;
+//   padding-left: 1.25rem;
+// }
 
-.selected-award-item {
-  display: list-item;
-  margin-bottom: 0.45rem;
-  line-height: 1.5;
-}
+// .selected-award-item {
+//   display: list-item;
+//   margin-bottom: 0.45rem;
+//   line-height: 1.5;
+// }
 
-.selected-award-text {
-  display: inline;
-}
+// .selected-award-text {
+//   display: inline;
+// }
 
-.selected-award-title {
-  font-weight: 600;
-}
+// .selected-award-title {
+//   font-weight: 600;
+// }
 
-.selected-award-venue,
-.selected-award-detail {
-  color: var(--global-text-color-light);
-}
+// .selected-award-venue,
+// .selected-award-detail {
+//   color: var(--global-text-color-light);
+// }
 
-.selected-award-year {
-  margin-left: 0.5rem;
-  white-space: nowrap;
-  font-weight: 600;
-  color: var(--global-theme-color);
-}
+// .selected-award-year {
+//   margin-left: 0.5rem;
+//   white-space: nowrap;
+//   font-weight: 600;
+//   color: var(--global-theme-color);
+// }
 
 
-.awards-cv {
+// .awards-cv {
+//   margin-top: 1.25rem;
+// }
+
+// .award-year-heading {
+//   margin-top: 1.8rem;
+//   margin-bottom: 0.75rem;
+//   padding-bottom: 0.3rem;
+//   border-bottom: 1px solid var(--global-divider-color);
+//   font-size: 1.15rem;
+//   font-weight: 700;
+// }
+
+// .award-year-heading:first-of-type {
+//   margin-top: 0.25rem;
+// }
+
+// .award-entry {
+//   position: relative;
+//   padding: 0.45rem 0 0.8rem 1rem;
+// }
+
+// .award-entry::before {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   top: 0.9rem;
+//   width: 0.38rem;
+//   height: 0.38rem;
+//   border-radius: 50%;
+//   background: var(--global-theme-color);
+// }
+
+// .award-title {
+//   font-weight: 600;
+//   line-height: 1.45;
+// }
+
+// .award-venue,
+// .award-detail {
+//   margin-top: 0.08rem;
+//   line-height: 1.55;
+//   color: var(--global-text-color-light);
+//   font-size: 0.97rem;
+// }
+
+
+// .teaching-cv {
+//   margin-top: 1.25rem;
+// }
+
+// .teaching-section {
+//   margin-bottom: 2rem;
+// }
+
+// .teaching-heading {
+//   margin-bottom: 0.85rem;
+//   padding-bottom: 0.3rem;
+//   border-bottom: 1px solid var(--global-divider-color);
+//   font-size: 1.15rem;
+//   font-weight: 700;
+// }
+
+// .teaching-entry {
+//   display: grid;
+//   grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+//   gap: 1rem;
+//   padding: 0.45rem 0;
+//   align-items: start;
+// }
+
+// .teaching-main {
+//   line-height: 1.5;
+//   min-width: 0;
+// }
+
+// .teaching-role {
+//   font-weight: 600;
+// }
+
+// .teaching-course {
+//   font-weight: 500;
+// }
+
+// .teaching-code {
+//   margin-left: 0.35rem;
+//   color: var(--global-text-color-light);
+//   font-weight: 500;
+// }
+
+// .teaching-inst,
+// .teaching-note {
+//   color: var(--global-text-color-light);
+//   font-size: 0.96rem;
+// }
+
+// .teaching-terms {
+//   white-space: normal;
+//   overflow-wrap: break-word;
+//   font-weight: 600;
+//   color: var(--global-theme-color);
+//   margin-left: 1rem;
+//   text-align: right;
+// }
+
+// @media (max-width: 768px) {
+//   .teaching-entry {
+//     grid-template-columns: 1fr;
+//     gap: 0.2rem;
+//   }
+
+//   .teaching-terms {
+//     margin-left: 0;
+//     text-align: left;
+//   }
+// }
+
+// .service-cv {
+//   margin-top: 1.25rem;
+// }
+
+// .service-section {
+//   margin-bottom: 1.2rem;
+//   border-bottom: 1px solid var(--global-divider-color);
+//   padding-bottom: 0.4rem;
+// }
+
+// .service-heading {
+//   cursor: pointer;
+//   list-style: none;
+//   font-size: 1.15rem;
+//   font-weight: 700;
+//   padding: 0.4rem 0;
+//   outline: none;
+// }
+
+// .service-heading::-webkit-details-marker {
+//   display: none;
+// }
+
+// .service-heading::before {
+//   content: "▸";
+//   display: inline-block;
+//   margin-right: 0.5rem;
+//   transition: transform 0.2s ease;
+// }
+
+// .service-section[open] .service-heading::before {
+//   transform: rotate(90deg);
+// }
+
+// .service-list {
+//   padding-top: 0.35rem;
+// }
+
+// .service-entry {
+//   display: grid;
+//   grid-template-columns: minmax(0, 1fr) max-content;
+//   gap: 1rem;
+//   padding: 0.45rem 0;
+//   align-items: start;
+// }
+
+// .service-main {
+//   min-width: 0;
+//   line-height: 1.5;
+// }
+
+// .service-role {
+//   font-weight: 600;
+// }
+
+// .service-venue {
+//   color: var(--global-text-color);
+// }
+
+// .service-note {
+//   color: var(--global-text-color-light);
+// }
+
+// .service-years {
+//   font-weight: 600;
+//   color: var(--global-theme-color);
+//   margin-left: 1rem;
+//   text-align: right;
+//   justify-self: end;
+// }
+
+// .compact .service-entry {
+//   padding: 0.3rem 0;
+// }
+
+// @media (max-width: 768px) {
+//   .service-entry {
+//     grid-template-columns: 1fr;
+//     gap: 0.2rem;
+//   }
+
+//   .service-years {
+//     margin-left: 0;
+//     text-align: left;
+//     white-space: normal;
+//     justify-self: start;
+//   }
+// }
+/******************************************************************************
+ * Faculty-style two-column pages: Teaching / Service / Funding
+ ******************************************************************************/
+
+.teaching-cv,
+.service-cv,
+.funding-cv {
   margin-top: 1.25rem;
 }
 
-.award-year-heading {
-  margin-top: 1.8rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--global-divider-color);
-  font-size: 1.15rem;
-  font-weight: 700;
-}
-
-.award-year-heading:first-of-type {
-  margin-top: 0.25rem;
-}
-
-.award-entry {
-  position: relative;
-  padding: 0.45rem 0 0.8rem 1rem;
-}
-
-.award-entry::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.9rem;
-  width: 0.38rem;
-  height: 0.38rem;
-  border-radius: 50%;
-  background: var(--global-theme-color);
-}
-
-.award-title {
-  font-weight: 600;
-  line-height: 1.45;
-}
-
-.award-venue,
-.award-detail {
-  margin-top: 0.08rem;
-  line-height: 1.55;
-  color: var(--global-text-color-light);
-  font-size: 0.97rem;
-}
-
-
-.teaching-cv {
-  margin-top: 1.25rem;
-}
-
-.teaching-section {
+.teaching-section,
+.service-section,
+.funding-section {
   margin-bottom: 2rem;
 }
 
-.teaching-heading {
+.teaching-heading,
+.service-heading,
+.funding-heading {
   margin-bottom: 0.85rem;
   padding-bottom: 0.3rem;
   border-bottom: 1px solid var(--global-divider-color);
@@ -384,75 +552,16 @@ ul.task-list input[type="checkbox"] {
   font-weight: 700;
 }
 
-.teaching-entry {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
-  gap: 1rem;
-  padding: 0.45rem 0;
-  align-items: start;
-}
-
-.teaching-main {
-  line-height: 1.5;
-  min-width: 0;
-}
-
-.teaching-role {
-  font-weight: 600;
-}
-
-.teaching-course {
-  font-weight: 500;
-}
-
-.teaching-code {
-  margin-left: 0.35rem;
-  color: var(--global-text-color-light);
-  font-weight: 500;
-}
-
-.teaching-inst,
-.teaching-note {
-  color: var(--global-text-color-light);
-  font-size: 0.96rem;
-}
-
-.teaching-terms {
-  white-space: normal;
-  overflow-wrap: break-word;
-  font-weight: 600;
-  color: var(--global-theme-color);
-  margin-left: 1rem;
-  text-align: right;
-}
-
-@media (max-width: 768px) {
-  .teaching-entry {
-    grid-template-columns: 1fr;
-    gap: 0.2rem;
-  }
-
-  .teaching-terms {
-    margin-left: 0;
-    text-align: left;
-  }
-}
-
-.service-cv {
-  margin-top: 1.25rem;
-}
-
+/* keep service accordion behavior if using details/summary */
 .service-section {
-  margin-bottom: 1.2rem;
   border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .service-heading {
   cursor: pointer;
   list-style: none;
-  font-size: 1.15rem;
-  font-weight: 700;
   padding: 0.4rem 0;
   outline: none;
 }
@@ -472,57 +581,109 @@ ul.task-list input[type="checkbox"] {
   transform: rotate(90deg);
 }
 
-.service-list {
+.service-list,
+.teaching-list,
+.funding-list {
   padding-top: 0.35rem;
 }
 
-.service-entry {
+/* unified entry layout */
+.teaching-entry,
+.service-entry,
+.funding-entry {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 30%);
   gap: 1rem;
   padding: 0.45rem 0;
   align-items: start;
 }
 
-.service-main {
+/* left column */
+.teaching-main,
+.service-main,
+.funding-main {
   min-width: 0;
   line-height: 1.5;
 }
 
-.service-role {
-  font-weight: 600;
-}
-
-.service-venue {
-  color: var(--global-text-color);
-}
-
-.service-note {
-  color: var(--global-text-color-light);
-}
-
-.service-years {
-  font-weight: 600;
-  color: var(--global-theme-color);
-  margin-left: 1rem;
+/* right column: allow wrapping */
+.teaching-terms,
+.service-years,
+.funding-meta {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
   text-align: right;
-  justify-self: end;
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+/* funding right column may contain year + amount */
+.funding-years,
+.funding-amount {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.funding-amount {
+  margin-top: 0.2rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.teaching-role,
+.service-role,
+.funding-role {
+  font-weight: 600;
+}
+
+.teaching-course,
+.funding-title {
+  font-weight: 500;
+}
+
+.teaching-code {
+  margin-left: 0.35rem;
+  color: var(--global-text-color-light);
+  font-weight: 500;
+}
+
+.teaching-inst,
+.teaching-note,
+.service-note,
+.funding-org-line,
+.funding-extra-line {
+  color: var(--global-text-color-light);
+  font-size: 0.96rem;
+}
+
+.service-venue,
+.funding-title,
+.funding-role,
+.funding-org-line,
+.funding-extra-line {
+  line-height: 1.5;
 }
 
 .compact .service-entry {
   padding: 0.3rem 0;
 }
 
+/* mobile */
 @media (max-width: 768px) {
-  .service-entry {
+  .teaching-entry,
+  .service-entry,
+  .funding-entry {
     grid-template-columns: 1fr;
     gap: 0.2rem;
   }
 
-  .service-years {
-    margin-left: 0;
+  .teaching-terms,
+  .service-years,
+  .funding-meta {
     text-align: left;
-    white-space: normal;
     justify-self: start;
   }
 }
