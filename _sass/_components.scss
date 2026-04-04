@@ -289,83 +289,83 @@ ul.task-list input[type="checkbox"] {
 
 
 
-// .selected-awards-list {
-//   margin-top: 0.5rem;
-//   padding-left: 1.25rem;
-// }
+.selected-awards-list {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+}
 
-// .selected-award-item {
-//   display: list-item;
-//   margin-bottom: 0.45rem;
-//   line-height: 1.5;
-// }
+.selected-award-item {
+  display: list-item;
+  margin-bottom: 0.45rem;
+  line-height: 1.5;
+}
 
-// .selected-award-text {
-//   display: inline;
-// }
+.selected-award-text {
+  display: inline;
+}
 
-// .selected-award-title {
-//   font-weight: 600;
-// }
+.selected-award-title {
+  font-weight: 600;
+}
 
-// .selected-award-venue,
-// .selected-award-detail {
-//   color: var(--global-text-color-light);
-// }
+.selected-award-venue,
+.selected-award-detail {
+  color: var(--global-text-color-light);
+}
 
-// .selected-award-year {
-//   margin-left: 0.5rem;
-//   white-space: nowrap;
-//   font-weight: 600;
-//   color: var(--global-theme-color);
-// }
+.selected-award-year {
+  margin-left: 0.5rem;
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
 
 
-// .awards-cv {
-//   margin-top: 1.25rem;
-// }
+.awards-cv {
+  margin-top: 1.25rem;
+}
 
-// .award-year-heading {
-//   margin-top: 1.8rem;
-//   margin-bottom: 0.75rem;
-//   padding-bottom: 0.3rem;
-//   border-bottom: 1px solid var(--global-divider-color);
-//   font-size: 1.15rem;
-//   font-weight: 700;
-// }
+.award-year-heading {
+  margin-top: 1.8rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
 
-// .award-year-heading:first-of-type {
-//   margin-top: 0.25rem;
-// }
+.award-year-heading:first-of-type {
+  margin-top: 0.25rem;
+}
 
-// .award-entry {
-//   position: relative;
-//   padding: 0.45rem 0 0.8rem 1rem;
-// }
+.award-entry {
+  position: relative;
+  padding: 0.45rem 0 0.8rem 1rem;
+}
 
-// .award-entry::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   top: 0.9rem;
-//   width: 0.38rem;
-//   height: 0.38rem;
-//   border-radius: 50%;
-//   background: var(--global-theme-color);
-// }
+.award-entry::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9rem;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+}
 
-// .award-title {
-//   font-weight: 600;
-//   line-height: 1.45;
-// }
+.award-title {
+  font-weight: 600;
+  line-height: 1.45;
+}
 
-// .award-venue,
-// .award-detail {
-//   margin-top: 0.08rem;
-//   line-height: 1.55;
-//   color: var(--global-text-color-light);
-//   font-size: 0.97rem;
-// }
+.award-venue,
+.award-detail {
+  margin-top: 0.08rem;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+  font-size: 0.97rem;
+}
 
 
 // .teaching-cv {
