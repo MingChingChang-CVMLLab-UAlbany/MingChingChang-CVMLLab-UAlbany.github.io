@@ -478,7 +478,7 @@ ul.task-list input[type="checkbox"] {
 
 .service-entry {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) minmax(140px, 190px);
   gap: 1rem;
   padding: 0.45rem 0;
   align-items: start;
@@ -486,8 +486,16 @@ ul.task-list input[type="checkbox"] {
 
 .service-main {
   line-height: 1.5;
+  min-width: 0;
 }
 
+.service-years {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-left: 1rem;
+  text-align: right;
+}
 .service-role {
   font-weight: 600;
 }
@@ -498,13 +506,6 @@ ul.task-list input[type="checkbox"] {
 
 .service-note {
   color: var(--global-text-color-light);
-}
-
-.service-years {
-  white-space: nowrap;
-  font-weight: 600;
-  color: var(--global-theme-color);
-  margin-left: 1rem;
 }
 
 .compact .service-entry {
