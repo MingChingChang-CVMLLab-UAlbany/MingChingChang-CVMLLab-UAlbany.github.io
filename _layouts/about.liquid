@@ -58,6 +58,7 @@ layout: default
 
     <!-- Selected awards -->
     {% if page.selected_awards %}
+      <hr>
       {% assign selected_awards = site.data.awards | where: "selected", true %}
       {% if selected_awards.size > 0 %}
         <h2>
@@ -83,10 +84,9 @@ layout: default
       {% endif %}
     {% endif %}
 
-    <hr>
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
+    <hr>
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
