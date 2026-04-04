@@ -284,3 +284,45 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+
+
+
+
+.selected-awards {
+  margin-top: 0.5rem;
+}
+
+.selected-award-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.10));
+  align-items: start;
+}
+
+.selected-award-title {
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.selected-award-venue,
+.selected-award-detail {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light, #666);
+}
+
+.selected-award-year {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--global-theme-color, #6c63ff);
+}
+
+@media (max-width: 768px) {
+  .selected-award-entry {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+}
+}
