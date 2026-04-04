@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-research-programs-grants",
-          title: "Research Programs/Grants",
+        },{id: "nav-grants",
+          title: "GRANTS",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/service/";
           },
-        },{id: "nav-awards-and-honors",
-          title: "AWARDS and HONORS",
+        },{id: "nav-awards",
+          title: "AWARDS",
           description: "",
           section: "Navigation",
           handler: () => {
