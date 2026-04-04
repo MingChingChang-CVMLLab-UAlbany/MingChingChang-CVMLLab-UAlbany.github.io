@@ -55,6 +55,33 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+    
+    <!-- Selected awards -->
+    {% if page.selected_awards %}
+      {% assign selected_awards = site.data.awards | where: "selected", true %}
+      {% if selected_awards.size > 0 %}
+        <h2>
+          <a href="{{ '/awards/' | relative_url }}" style="color: inherit">Selected Awards</a>
+        </h2>
+
+        <div class="selected-awards">
+          {% for item in selected_awards limit: 5 %}
+            <div class="selected-award-entry">
+              <div class="selected-award-main">
+                <div class="selected-award-title">{{ item.title }}</div>
+                {% if item.venue != "" %}
+                  <div class="selected-award-venue">{{ item.venue }}</div>
+                {% endif %}
+                {% if item.detail != "" %}
+                  <div class="selected-award-detail">{{ item.detail }}</div>
+                {% endif %}
+              </div>
+              <div class="selected-award-year">{{ item.year }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}

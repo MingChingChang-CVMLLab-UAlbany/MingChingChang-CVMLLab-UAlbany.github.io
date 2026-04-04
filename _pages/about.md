@@ -12,6 +12,7 @@ profile:
     <p>Office: 1400 Western Avenue, Albany, NY 12222, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_awards: true # includes a list of awards marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
