@@ -2,11 +2,11 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: <a href='#'>Associate Professor</a>
+subtitle: # <a href='#'>Associate Professor</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: 2016_10_25_Ming-Ching Chang_19.jpg
+  image: 2016_10_25_MingChingChang_19.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office: 1400 Western Avenue, Albany, NY 12222, USA</p>
@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: false # truetrue # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 10 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false # true
