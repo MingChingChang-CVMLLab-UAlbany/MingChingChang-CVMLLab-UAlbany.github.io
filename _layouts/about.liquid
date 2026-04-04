@@ -64,9 +64,9 @@ layout: default
           <a href="{{ '/awards/' | relative_url }}" style="color: inherit">Selected Awards</a>
         </h2>
 
-        <div class="selected-awards">
+        <ul class="selected-awards-list">
           {% for item in selected_awards limit: 5 %}
-            <div class="selected-award-entry">
+            <li class="selected-award-item">
               <span class="selected-award-text">
                 <span class="selected-award-title">{{ item.title }}</span>
                 {% if item.venue != "" %}
@@ -77,11 +77,13 @@ layout: default
                 {% endif %}
               </span>
               <span class="selected-award-year">{{ item.year }}</span>
-            </div>
+            </li>
           {% endfor %}
-        </div>
+        </ul>
       {% endif %}
     {% endif %}
+
+    <hr>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
