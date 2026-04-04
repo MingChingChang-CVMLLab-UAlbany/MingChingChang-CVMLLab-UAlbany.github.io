@@ -23,6 +23,27 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-research-programs-grants",
+          title: "Research Programs/Grants",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/funding/";
+          },
+        },{id: "nav-service",
+          title: "SERVICE",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
+          },
+        },{id: "nav-awards-and-honors",
+          title: "AWARDS and HONORS",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
         },{id: "nav-lab",
           title: "LAB",
           description: "",
