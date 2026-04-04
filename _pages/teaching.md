@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: teaching
 permalink: /teaching/
 title: TEACHING
 description:
 nav: true
 nav_order: 3
-calendar: false #true
 ---
-
+<!-- 
 UAlbany Courses:
 
 * Artificial Intelligence CSI-435/535: Fall 2017-2022, Fall 2025, Spring 2026.
@@ -24,4 +23,4 @@ UAlbany Courses:
 
 Visiting/Summer Courses:
 
-* Frontier R&D's in Image / Video Processing and Industrial Computer Vision, graduate summer course, University of Chinese Academy of Sciences (UCAS), China, 2015.
+* Frontier R&D's in Image / Video Processing and Industrial Computer Vision, graduate summer course, University of Chinese Academy of Sciences (UCAS), China, 2015. -->

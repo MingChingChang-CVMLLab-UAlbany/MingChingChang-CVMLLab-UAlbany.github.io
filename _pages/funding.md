@@ -9,6 +9,7 @@ calendar: false #true
 ---
 <!-- Update data in _data/funding.yml -->
 <!-- Update style in _layouts/funding.liquid -->
+
 ## Research Programs and Grants
 
 {% for item in site.data.funding %}
