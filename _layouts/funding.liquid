@@ -1,0 +1,149 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="funding-cv">
+      {% for item in site.data.funding %}
+        <div class="funding-entry">
+          <div class="funding-main">
+            <div class="funding-title-line">
+              {% if item.role != "" %}
+                <span class="funding-role">{{ item.role }}</span>{% if item.title != "" %}, {% endif %}
+              {% endif %}
+              <span class="funding-title">{{ item.title }}</span>
+            </div>
+
+            {% if item.institution != "" or item.sponsor != "" %}
+              <div class="funding-org-line">
+                {% if item.institution != "" %}
+                  <span>{{ item.institution }}</span>
+                {% endif %}
+                {% if item.sponsor != "" %}
+                  {% if item.institution != "" %}; {% endif %}
+                  <span>{{ item.sponsor }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            {% if item.pi != "" or item.note != "" %}
+              <div class="funding-extra-line">
+                {% if item.pi != "" %}
+                  <span>PI: {{ item.pi }}</span>
+                {% endif %}
+                {% if item.note != "" %}
+                  {% if item.pi != "" %}<span class="funding-sep">•</span>{% endif %}
+                  <span>{{ item.note }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+
+          <div class="funding-meta">
+            {% if item.years != "" %}
+              <div class="funding-years">{{ item.years }}</div>
+            {% endif %}
+            {% if item.amount != "" %}
+              <div class="funding-amount">{{ item.amount }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>
+
+<style>
+  .funding-cv {
+    margin-top: 1.25rem;
+  }
+
+  .funding-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.25rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.10));
+    align-items: start;
+  }
+
+  .funding-entry:first-child {
+    padding-top: 0.25rem;
+  }
+
+  .funding-title-line {
+    font-size: 1.02rem;
+    line-height: 1.45;
+    margin-bottom: 0.25rem;
+  }
+
+  .funding-role {
+    font-weight: 600;
+  }
+
+  .funding-title {
+    font-weight: 500;
+  }
+
+  .funding-org-line,
+  .funding-extra-line {
+    font-size: 0.96rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light, #666);
+  }
+
+  .funding-extra-line {
+    margin-top: 0.1rem;
+  }
+
+  .funding-sep {
+    margin: 0 0.45rem;
+  }
+
+  .funding-meta {
+    text-align: right;
+    min-width: 9rem;
+    white-space: nowrap;
+    padding-top: 0.1rem;
+  }
+
+  .funding-years {
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .funding-amount {
+    margin-top: 0.2rem;
+    font-size: 0.92rem;
+    color: var(--global-theme-color, #6c63ff);
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .funding-entry {
+      grid-template-columns: 1fr;
+      gap: 0.45rem;
+    }
+
+    .funding-meta {
+      text-align: left;
+      min-width: 0;
+      white-space: normal;
+    }
+
+    .funding-years,
+    .funding-amount {
+      display: inline-block;
+      margin-right: 0.75rem;
+    }
+  }
+</style>
