@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /funding/
-title: Research Programs/Grants
+title: GRANTS
 description:
 nav: true
 nav_order: 4
