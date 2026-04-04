@@ -8,7 +8,15 @@ nav_order: 4
 calendar: false #true
 ---
 
+## Research Programs and Grants
 
+{% for item in site.data.funding %}
+{{ forloop.index }}. **{{ item.role }}, {{ item.title }}**  
+   {{ item.institution }}{% if item.pi != "" %}. PI: {{ item.pi }}{% endif %}.  
+   {{ item.years }}{% if item.amount != "" %}. **{{ item.amount }}**{% endif %}.
+
+{% endfor %}
+<!-- 
 ## Research Programs and Grants
 
 1. **Co-PI, Embedded Edge Computing Framework for Real-Time Road Object Tracking for Wide Coverage using Deep Learning**  
@@ -100,4 +108,4 @@ calendar: false #true
 
 23. **GE Global Research Growth Council Grant**  
     Developed a video content analysis prototype demonstration system.  
-    2010. **$10,000**.
+    2010. **$10,000**. -->
