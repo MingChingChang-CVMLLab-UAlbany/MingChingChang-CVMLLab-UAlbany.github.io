@@ -55,7 +55,7 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
-    
+
     <!-- Selected awards -->
     {% if page.selected_awards %}
       {% assign selected_awards = site.data.awards | where: "selected", true %}
@@ -67,16 +67,16 @@ layout: default
         <div class="selected-awards">
           {% for item in selected_awards limit: 5 %}
             <div class="selected-award-entry">
-              <div class="selected-award-main">
-                <div class="selected-award-title">{{ item.title }}</div>
+              <span class="selected-award-text">
+                <span class="selected-award-title">{{ item.title }}</span>
                 {% if item.venue != "" %}
-                  <div class="selected-award-venue">{{ item.venue }}</div>
+                  <span class="selected-award-venue">, {{ item.venue }}</span>
                 {% endif %}
                 {% if item.detail != "" %}
-                  <div class="selected-award-detail">{{ item.detail }}</div>
+                  <span class="selected-award-detail">, {{ item.detail }}</span>
                 {% endif %}
-              </div>
-              <div class="selected-award-year">{{ item.year }}</div>
+              </span>
+              <span class="selected-award-year">{{ item.year }}</span>
             </div>
           {% endfor %}
         </div>
