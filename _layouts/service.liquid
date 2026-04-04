@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="service-cv">
+      <section class="service-section">
+        <h2 class="service-heading">Professional Appointments</h2>
+        <div class="service-list">
+          {% for item in site.data.service.professional_appointments %}
+            <div class="service-entry">
+              <div class="service-main">
+                <span class="service-role">{{ item.role }}</span>,
+                <span class="service-venue">{{ item.venue }}</span>
+                {% if item.note != "" %}
+                  <span class="service-note"> {{ item.note }}</span>
+                {% endif %}
+              </div>
+              <div class="service-years">{{ item.years }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="service-section">
+        <h2 class="service-heading">Journal Referee</h2>
+        <div class="service-list compact">
+          {% for item in site.data.service.journal_referee %}
+            <div class="service-entry">
+              <div class="service-main">
+                <span class="service-venue">{{ item.venue }}</span>
+              </div>
+              <div class="service-years">{{ item.years }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="service-section">
+        <h2 class="service-heading">Conference Technical Committee and Referee</h2>
+        <div class="service-list compact">
+          {% for item in site.data.service.conference_service %}
+            <div class="service-entry">
+              <div class="service-main">
+                <span class="service-venue">{{ item.venue }}</span>
+              </div>
+              <div class="service-years">{{ item.years }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </article>
+</div>
+
+<style>
+  .service-cv {
+    margin-top: 1.25rem;
+  }
+
+  .service-section {
+    margin-bottom: 2rem;
+  }
+
+  .service-heading {
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.10));
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .service-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1rem;
+    padding: 0.45rem 0;
+    align-items: start;
+  }
+
+  .service-main {
+    line-height: 1.5;
+  }
+
+  .service-role {
+    font-weight: 600;
+  }
+
+  .service-venue {
+    color: var(--global-text-color);
+  }
+
+  .service-note {
+    color: var(--global-text-color-light, #666);
+  }
+
+  .service-years {
+    white-space: nowrap;
+    font-weight: 600;
+    color: var(--global-theme-color, #6c63ff);
+    margin-left: 1rem;
+  }
+
+  .compact .service-entry {
+    padding: 0.3rem 0;
+  }
+
+  @media (max-width: 768px) {
+    .service-entry {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+
+    .service-years {
+      margin-left: 0;
+    }
+  }
+</style>

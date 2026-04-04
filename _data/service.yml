@@ -1,0 +1,293 @@
+professional_appointments:
+  - role: "Associate Editor"
+    venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)"
+    years: "10/2025 to 12/2027"
+    note: ""
+
+  - role: "Area Chair"
+    venue: "International Conference on Learning Representations (ICLR)"
+    years: "9/2027"
+    note: ""
+
+  - role: "Area Chair"
+    venue: "Computer Vision and Pattern Recognition (CVPR) Conference"
+    years: "9/2027"
+    note: ""
+
+  - role: "Senior PC"
+    venue: "The Association for the Advancement of Artificial Intelligence (AAAI) Conference"
+    years: "8/2025"
+    note: ""
+
+  - role: "Technical Committee"
+    venue: "IEEE Consumer Technology Society (CTSoc)"
+    years: "3/2025"
+    note: ""
+
+  - role: "Associate Editor"
+    venue: "IEEE Transactions on Multimedia"
+    years: "10/1/2024 to 9/30/2026"
+    note: ""
+
+  - role: "TPC Co-Chair"
+    venue: "IEEE International Conference on Multimedia Expo (ICME)"
+    years: "2025"
+    note: ""
+
+  - role: "General Co-Chair"
+    venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS)"
+    years: "2025"
+    note: ""
+
+  - role: "General Co-Chair Lead"
+    venue: "IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR)"
+    years: "2024"
+    note: ""
+
+  - role: "Program Co-Chair Lead"
+    venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS)"
+    years: "2024"
+    note: ""
+
+  - role: "Chair, Steering Committee"
+    venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS)"
+    years: "2022-present"
+    note: ""
+
+  - role: "TPC Chair Lead"
+    venue: "IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)"
+    years: "2022"
+    note: ""
+
+  - role: "Program Chair"
+    venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS)"
+    years: "2019"
+    note: ""
+
+  - role: "Area Chair"
+    venue: "IEEE International Conference on Multimedia & Expo (ICME)"
+    years: "2021-2023"
+    note: "Selected as one of the outstanding area chairs of ICME 2021."
+
+  - role: "Area Chair, Session Chair"
+    venue: "IEEE International Conference on Image Processing (ICIP)"
+    years: "2017, 2019-2022"
+    note: ""
+
+  - role: "Co-Chair"
+    venue: "AI City Challenge Workshop in conjunction with the IEEE Computer Vision and Pattern Recognition (CVPR)"
+    years: "2018-2022 and ongoing"
+    note: ""
+
+  - role: "Organization Committee"
+    venue: "Low-Power Computer Vision (LPCV) Workshop and Challenge in conjunction with the CVPR 2020 Workshop and ICCV 2021 Workshop"
+    years: "ongoing"
+    note: ""
+
+  - role: "Co-Chair"
+    venue: "International Workshop on the Traffic and Street Surveillance for Safety and Security (IWT4S), in conjunction with AVSS"
+    years: "2017-2019"
+    note: ""
+
+  - role: "Co-Chair, Application Track"
+    venue: "NVIDIA AI City Challenge in conjunction with the IEEE Smart World Congress, San Jose, CA, USA"
+    years: "2017"
+    note: ""
+
+  - role: "Publication and Associate Chair"
+    venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS), Lecce, Italy"
+    years: "2017"
+    note: ""
+
+  - role: "Steering Committee"
+    venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS)"
+    years: "2017-present"
+    note: ""
+
+journal_referee:
+  - venue: "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)"
+    years: "2022-2023"
+
+  - venue: "ACM Transactions on Multimedia (TMM)"
+    years: "2023"
+
+  - venue: "ASME Journal of Computing and Information Science in Engineering (JCISE)"
+    years: "2010"
+
+  - venue: "Computers, Materials & Continua (CMC)"
+    years: "2023"
+
+  - venue: "Elsevier Big Data Research (BDR)"
+    years: "2020"
+
+  - venue: "Elsevier Computers and Electronics in Agriculture"
+    years: "2022"
+
+  - venue: "Elsevier Computers & Electrical Engineering"
+    years: "2022"
+
+  - venue: "Elsevier Computers & Mathematics with Applications"
+    years: "2009"
+
+  - venue: "Elsevier Computer Vision and Image Understanding"
+    years: "2023"
+
+  - venue: "Elsevier Digital Signal Processing"
+    years: "2023"
+
+  - venue: "Elsevier Engineering Applications of Artificial Intelligence (EAAI)"
+    years: "2023"
+
+  - venue: "Elsevier Expert Systems with Applications (ESWA)"
+    years: "2022-2023"
+
+  - venue: "Elsevier Image and Vision Computing (IVC)"
+    years: "2009"
+
+  - venue: "Elsevier Journal of Sustainable Cities and Society"
+    years: "2022"
+
+  - venue: "Elsevier Knowledge-Based Systems"
+    years: "2023"
+
+  - venue: "Elsevier Measurement"
+    years: "2022-2023"
+
+  - venue: "Elsevier Pattern Recognition"
+    years: "2023"
+
+  - venue: "Elsevier Signal Processing: Image Communication"
+    years: "2020, 2023"
+
+  - venue: "Elsevier Sustainable Cities and Society"
+    years: "2022"
+
+  - venue: "Elsevier Transportation Research Part D: Transport and Environment"
+    years: "2022"
+
+  - venue: "Elsevier Visual Informatics"
+    years: "2022"
+
+  - venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)"
+    years: "2021-2022"
+
+  - venue: "IEEE Transactions on Cybernetics"
+    years: "2021"
+
+  - venue: "IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)"
+    years: "2022"
+
+  - venue: "IEEE Transactions on Image Processing (TIP)"
+    years: "2009-2010, 2023-2024"
+
+  - venue: "IEEE Transactions on Intelligent Transportation Systems (ITS)"
+    years: "2020"
+
+  - venue: "IEEE Transactions on Multimedia"
+    years: "2011, 2020, 2022, 2024"
+
+  - venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)"
+    years: "2022"
+
+  - venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+    years: "2022"
+
+  - venue: "IET Computer Vision"
+    years: "2013"
+
+  - venue: "Nature Scientific Reports"
+    years: "2023"
+
+  - venue: "Journal of Applied Analysis and Computation (JAAC)"
+    years: "2015"
+
+  - venue: "Springer International Journal of Computer Vision (IJCV)"
+    years: "2009, 2016"
+
+  - venue: "Springer Multimedia Tools and Applications (MTA)"
+    years: "2022-2023"
+
+  - venue: "Springer Machine Vision Applications (MVA)"
+    years: "2010-2011"
+
+  - venue: "Springer The Visual Computer Journal (TVCJ)"
+    years: "2009, 2011-2013, 2021-2022"
+
+  - venue: "Springer Numerical Algorithms (NUMA)"
+    years: "2022"
+
+  - venue: "Springer Multimedia Tools and Applications (MTAP)"
+    years: "2021-2022"
+
+conference_service:
+  - venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    years: "2011, 2013, 2016, 2019-2024"
+
+  - venue: "IEEE International Conference on Computer Vision (ICCV)"
+    years: "2013, 2015, 2019, 2021, 2023"
+
+  - venue: "European Conference on Computer Vision (ECCV)"
+    years: "2010, 2012, 2014, 2016, 2020, 2024"
+
+  - venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    years: "2021-2024"
+
+  - venue: "International Conference on Machine Learning (ICML)"
+    years: "2022-2024"
+
+  - venue: "International Conference on Learning Representations (ICLR)"
+    years: "2022-2025"
+
+  - venue: "Association for the Advancement of Artificial Intelligence (AAAI)"
+    years: "2020-2025"
+
+  - venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+    years: "2019-2024"
+
+  - venue: "The British Machine Vision Conference (BMVC)"
+    years: "2021"
+
+  - venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+    years: "2023-2025"
+
+  - venue: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+    years: "2021-2024"
+
+  - venue: "Asian Conference on Computer Vision (ACCV)"
+    years: "2022"
+
+  - venue: "International Conference on Pattern Recognition (ICPR)"
+    years: "2018, 2022"
+
+  - venue: "IEEE Conference on Advanced Video and Signal-based Surveillance (AVSS)"
+    years: "2010-2011, 2014, 2018, 2019-2021"
+
+  - venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+    years: "2022"
+
+  - venue: "International Conference on Machine Learning and Data Mining (MLDM)"
+    years: "2022"
+
+  - venue: "International Conference on Computer Communication and the Internet (ICCCI)"
+    years: "2023"
+
+  - venue: "International Conference on Image Processing and Vision Engineering (IMPROVE)"
+    years: "2021-2022"
+
+  - venue: "International Conference on Computer Vision Theory and Applications (VISAPP)"
+    years: "2021"
+
+  - venue: "International Workshop on Smart Sensor Networks"
+    years: "2012"
+
+  - venue: "International Conference on Biomedical Engineering and Biotechnology (iCBEB)"
+    years: "2013-2016"
+
+  - venue: "International Conference on Electronics, Communications and Network (CECNet)"
+    years: "2014-2015"
+
+  - venue: "IEEE International Conference on Computer Graphics, Vision and Information Security (CGVIS)"
+    years: "2015"
+
+  - venue: "International Conference on Image Information Processing (ICIIP)"
+    years: "2013"
