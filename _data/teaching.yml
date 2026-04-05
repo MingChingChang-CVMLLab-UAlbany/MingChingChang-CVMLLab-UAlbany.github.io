@@ -1,14 +1,14 @@
 ualbany_courses:
   - course: "Artificial Intelligence"
     code: "CSI-435/535"
-    terms: "Fall 2017-2022, Fall 2025, Spring 2026"
+    terms: "Spring 2026; Fall 2017-2022, 2025"
     role: ""
     institution: ""
     note: ""
 
   - course: "Algorithms and Data Structure"
     code: "CSI-503"
-    terms: "Spring 2025, Spring 2026"
+    terms: "Spring 2025-2026"
     role: ""
     institution: ""
     note: ""
@@ -22,7 +22,7 @@ ualbany_courses:
 
   - course: "Data Mining"
     code: "CSI-431"
-    terms: "Spring 2020, Fall 2022, Spring 2023, Spring 2025"
+    terms: "Spring 2020, 2023, 2025; Fall 2022"
     role: ""
     institution: ""
     note: ""
